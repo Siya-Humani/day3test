@@ -26,7 +26,8 @@
         </div>
 
         <!-- Form -->        
-        <form action="https://formspree.io/f/xpwzeglb" method="POST">
+        <form id="userForm">   
+        <form action="https://formspree.io/f/mdkornll" method="POST">
             <input type="text" id="name" name="name" placeholder="NAME & SURNAME" required>
             <input type="tel" id="phone" name="phone" placeholder="PHONE" required pattern="[\+]?[0-9]{10,13}">
             <input type="text" id="city" name="city" placeholder="CITY" required>
@@ -40,26 +41,7 @@
         <div class="terms-container">
             <p><a href="https://docs.google.com/document/d/16KZZBE2jQ0VPrkzx-pnRpHAYt3l09rjmIaEbdwuEKOs/edit?tab=t.0" target="_blank">TERMS AND CONDITIONS APPLY</a></p>
         </div> 
-<style>
-form {
-  background: #00b47f;
-  padding: 10px;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
 
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-  width: 100%;
-  padding: 12px 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  border-bottom: 1px solid #ffffff;
-</style>
     <script>
         // Function to store form data in localStorage and redirect to instructions page
         document.getElementById('userForm').addEventListener('submit', function(event) {
