@@ -10,7 +10,6 @@ body {
     text-align: center;
     max-height: 100vh; /* Ensure body covers full viewport height */
   }
-  f
   .form {
     display: flex;
     flex-direction: column;
