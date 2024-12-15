@@ -10,7 +10,7 @@ body {
     text-align: center;
     max-height: 100vh; /* Ensure body covers full viewport height */
   }
-  
+  f
   .form {
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@ body {
     }
   
     p {
-      font-size: 18px; /* Adjust paragraph size for tablet */
+      font-size: 13px; /* Adjust paragraph size for tablet */
     }
   
     button {
@@ -180,7 +180,7 @@ body {
     }
   
     p {
-      font-size: 20px; /* Increase paragraph size for desktop */
+      font-size: 16px; /* Increase paragraph size for desktop */
     }
   
     .form-image {
